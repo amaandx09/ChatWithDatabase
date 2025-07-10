@@ -80,7 +80,6 @@ pip install -r requirements.txt
 
 ### 📂 Project Structure
 - ChatWithDatabase/
-- │
 - ├── main.py               # Main Streamlit app
 - ├── .env                  # Your OpenAI API key
 - ├── requirements.txt      # Python dependencies
