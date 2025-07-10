@@ -1,4 +1,4 @@
-# 💬 Chat with Table Response
+# 💬 Chat with Database Response
 
 This is a Streamlit web application that allows you to chat with your MySQL database using natural language. It uses OpenAI's GPT model and LangChain to generate SQL queries, visualize data as bar charts, and download responses as PDFs.
 
