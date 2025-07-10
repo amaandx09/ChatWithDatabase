@@ -71,3 +71,34 @@ Visit http://localhost:8501 in your browser.
     3. You can:
         Click 📊 Show Chart to visualize bar chart (if applicable)
         Click Download PDF to export the result
+
+### 🖼 Example Queries
+- List top 10 products by sales
+- Show total revenue per month
+- What is the average order value for 2023?
+- List employees hired after 2020
+
+### 📂 Project Structure
+ChatWithDatabase/
+│
+├── main.py               # Main Streamlit app
+├── .env                  # Your OpenAI API key
+├── requirements.txt      # Python dependencies
+├── README.md             # Project documentation
+
+
+### 🙏 Acknowledgements
+- OpenAI
+- LangChain
+- Streamlit
+- FPDF
+- SQLAlchemy
+
+### 💡 Contributing
+Pull requests are welcome! If you’d like to suggest improvements or add new features, feel free to fork this repo and create a PR.
+
+### 📄 License
+This project is licensed under the MIT License.
+
+
+
