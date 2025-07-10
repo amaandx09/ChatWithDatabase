@@ -32,29 +32,29 @@ This is a Streamlit web application that allows you to chat with your MySQL data
 
 ### 1. Clone the repository
 
-git clone https://github.com/amaandx09/ChatWithDatabase.git
-cd ChatWithDatabase
+- git clone https://github.com/amaandx09/ChatWithDatabase.git
+- cd ChatWithDatabase
 
-### 2. Create a virtual environment and activate it:
-python -m venv venv
-source venv/bin/activate   # On Windows: venv\Scripts\activate
+### 2. Create a virtual environment and activate it
+- python -m venv venv
+- source venv/bin/activate   # On Windows: venv\Scripts\activate
 
-### 3. Install dependencies:
+### 3. Install dependencies
 pip install -r requirements.txt
 
-### 4. Add your OpenAI API key:
-Create a .env file in the root directory:
-OPENAI_API_KEY=your_openai_api_key
-⚠️ Do not share your API key publicly.
+### 4. Add your OpenAI API key
+- Create a .env file in the root directory:
+- OPENAI_API_KEY=your_openai_api_key
+- ⚠️ Do not share your API key publicly.
 
-### 5. Configure your database:
-Edit the database config in the script:
-DATABASE_NAME = "openaidb"
-db_uri = "mysql+pymysql://root:root@localhost:3306/openaidb"
+### 5. Configure your database
+- Edit the database config in the script
+- DATABASE_NAME = "openaidb"
+- db_uri = "mysql+pymysql://root:root@localhost:3306/openaidb"
 
-### ▶️ Run the Application:
-streamlit run main.py
-Visit http://localhost:8501 in your browser.
+### ▶️ Run the Application
+- streamlit run main.py
+- Visit http://localhost:8501 in your browser.
 
 
 ### ✨ How to Use
@@ -79,12 +79,12 @@ Visit http://localhost:8501 in your browser.
 - List employees hired after 2020
 
 ### 📂 Project Structure
-ChatWithDatabase/
-│
-├── main.py               # Main Streamlit app
-├── .env                  # Your OpenAI API key
-├── requirements.txt      # Python dependencies
-├── README.md             # Project documentation
+- ChatWithDatabase/
+- │
+- ├── main.py               # Main Streamlit app
+- ├── .env                  # Your OpenAI API key
+- ├── requirements.txt      # Python dependencies
+- ├── README.md             # Project documentation
 
 
 ### 🙏 Acknowledgements
