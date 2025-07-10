@@ -33,8 +33,8 @@ This is a Streamlit web application that allows you to chat with your MySQL data
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/chat-with-table-response.git
-cd chat-with-table-response
+git clone https://github.com/amaandx09/ChatWithDatabase.git
+cd ChatWithDatabase
 
 2. Create a virtual environment and activate it:
 python -m venv venv
