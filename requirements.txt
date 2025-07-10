@@ -8,9 +8,11 @@ attrs==25.3.0
 blinker==1.9.0
 cachetools==6.1.0
 certifi==2025.7.9
+cffi==1.17.1
 charset-normalizer==3.4.2
 click==8.2.1
 colorama==0.4.6
+cryptography==45.0.5
 dataclasses-json==0.6.7
 distro==1.9.0
 fpdf==1.7.2
@@ -49,6 +51,7 @@ pillow==11.3.0
 propcache==0.3.2
 protobuf==6.31.1
 pyarrow==20.0.0
+pycparser==2.22
 pydantic==2.11.7
 pydantic-settings==2.10.1
 pydantic_core==2.33.2

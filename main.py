@@ -175,21 +175,10 @@ def get_response(user_input):
         return f"❌ SQL Error:\n\n```sql\n{sql_query}\n```\n\n**Error:** {e}"
 
 
-    
-    # try:
-    #     result = db.run(sql_query)
-    #     print("Result :",result)
-    #     readable = convert_sql_result_to_readable(user_input,result)
-    #     return f"**Answer is:**\n\n{readable}"
-    #     return f"**SQL Query:**\n```sql\n{sql_query}\n```\n\n**Result:**\n{result}"
-    # except Exception as e:
-    #     return f"❌ SQL Error:\n\n```sql\n{sql_query}\n```\n\n**Error:** {e}"
-
-
 ## Streamlit Page Setup
 
-st.set_page_config(page_title="Chat With Table Response", page_icon="💬")
-st.title("💬 Chat With Table Response")
+st.set_page_config(page_title="Chat With Database Response", page_icon="💬")
+st.title("💬 Chat With Database Response")
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
